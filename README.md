@@ -11,6 +11,7 @@
 | convert_to     | convert_to     | import Mathlib.Tactic.Convert       |
 | exact          | exact          | [core]                              |
 | exfalso        | exfalso        | import Std.Tactic.Basic             |
+| finish         | —              | —                                   |
 | have           | have           | import Mathlib.Tactic.Have          |
 | induction      | induction'     | import Mathlib.Tactic.Cases         |
 | intro          | intro          | [core]                              |
