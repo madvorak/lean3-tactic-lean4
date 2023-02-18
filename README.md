@@ -1,22 +1,36 @@
-| Lean 3      | Lean 4      | requires                      |
-| ----------- | ----------- | ----------------------------- |
-| apply       | apply       | [in core]                     |
-| assumption  | assumption  | [in core]                     |
-| cases       | cases'      | import Mathlib.Tactic.Cases   |
-| convert     | convert     | import Mathlib.Tactic.Convert |
-| convert_to  | convert_to  | import Mathlib.Tactic.Convert |
-| exact       | exact       | [in core]                     |
-| induction   | induction'  | import Mathlib.Tactic.Cases   |
-| intro       | intro       | [in core]                     |
-| intros      | intro       | [in core]                     |
-| left        | left        | import Mathlib.Tactic.LeftRight |
+| Lean 3         | Lean 4         | requires                            |
+| -------------- | -------------- | ----------------------------------- |
+| all_goals      | all_goals      | [core]                              |
+| any_goals      | any_goals      | [core]                              |
+| apply          | apply          | [core]                              |
+| assumption     | assumption     | [core]                              |
+| by_contradiction | by_contra    | import Mathlib.Tactic.ByContra      |
+| cases          | cases'         | import Mathlib.Tactic.Cases         |
+| contradiction  | contradiction  | [core]                              |
+| convert        | convert        | import Mathlib.Tactic.Convert       |
+| convert_to     | convert_to     | import Mathlib.Tactic.Convert       |
+| exact          | exact          | [core]                              |
+| exfalso        | exfalso        | import Std.Tactic.Basic             |
+| have           | have           | import Mathlib.Tactic.Have          |
+| induction      | induction'     | import Mathlib.Tactic.Cases         |
+| intro          | intro          | [core]                              |
+| intros         | intro          | [core]                              |
+| iterate        | iterate        | import Std.Tactic.Basic             |
+| left           | left           | import Mathlib.Tactic.LeftRight     |
 | library_search | library_search | import Mathlib.Tactic.LibrarySearch |
-| linarith    | linarith    | import Mathlib.Tactic.LibrarySearch |
-| refl        | rfl         | [in core]                     |
-| right       | right       | import Mathlib.Tactic.LeftRight |
-| ring        | ring        | import Mathlib.Tactic.Ring    |
-| rw foo      | rw [foo]    | [in core]                     |
-| split       | constructor | [in core]                     |
-| suggest     | library_search | import Mathlib.Tactic.LibrarySearch |
-| unfold      | unfold      | [in core]                     |
-| use         | use         | import Mathlib.Tactic.Use     |
+| linarith       | linarith       | import Mathlib.Tactic.LibrarySearch |
+| rcases         | rcases         | import Std.Tactic.RCases            |
+| refl           | rfl            | [core]                              |
+| repeat         | repeat         | [core]                              |
+| right          | right          | import Mathlib.Tactic.LeftRight     |
+| ring           | ring           | import Mathlib.Tactic.Ring          |
+| rintro         | rintro         | import Std.Tactic.RCases            |
+| rw foo         | rw [foo]       | [core]                              |
+| simp           | simp           | [core]                              |
+| sorry          | sorry          | [core]                              |
+| specialize     | specialize     | [core]                              |
+| split          | constructor    | [core]                              |
+| suggest        | library_search | import Mathlib.Tactic.LibrarySearch |
+| try            | try            | [core]                              |
+| unfold         | unfold         | [core]                              |
+| use            | use            | import Mathlib.Tactic.Use           |
