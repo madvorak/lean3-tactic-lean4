@@ -31,6 +31,7 @@
 | sorry          | sorry          | [core]                              |
 | specialize     | specialize     | [core]                              |
 | split          | constructor    | [core]                              |
+| squeeze_simp   | simp?          | import Std.Tactic.SimpTrace         |
 | suggest        | library_search | import Mathlib.Tactic.LibrarySearch |
 | try            | try            | [core]                              |
 | unfold         | unfold         | [core]                              |
