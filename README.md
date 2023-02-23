@@ -12,6 +12,7 @@
 | convert_to     | convert_to     | import Mathlib.Tactic.Convert       |
 | exact          | exact          | [core]                              |
 | exfalso        | exfalso        | import Std.Tactic.Basic             |
+| field_simp     | field_simp     | import Mathlib.Tactic.FieldSimp     |
 | finish         | —              | —                                   |
 | have           | have           | import Mathlib.Tactic.Have          |
 | induction      | induction'     | import Mathlib.Tactic.Cases         |
