@@ -34,6 +34,7 @@
 | split          | constructor    | [core]                              |
 | squeeze_simp   | simp?          | import Std.Tactic.SimpTrace         |
 | suggest        | library_search | import Mathlib.Tactic.LibrarySearch |
+| swap           | swap           | import Mathlib.Tactic.PermuteGoals  |
 | try            | try            | [core]                              |
 | unfold         | unfold         | [core]                              |
 | use            | use            | import Mathlib.Tactic.Use           |
