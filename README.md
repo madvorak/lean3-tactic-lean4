@@ -6,6 +6,7 @@
 | assumption     | assumption     | [core]                              |
 | by_contradiction | by_contra    | import Mathlib.Tactic.ByContra      |
 | cases          | cases'         | import Mathlib.Tactic.Cases         |
+| congr          | congr          | [core]                              |
 | contradiction  | contradiction  | [core]                              |
 | convert        | convert        | import Mathlib.Tactic.Convert       |
 | convert_to     | convert_to     | import Mathlib.Tactic.Convert       |
