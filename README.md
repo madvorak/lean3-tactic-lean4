@@ -36,6 +36,7 @@
 | squeeze_simp   | simp?          | import Std.Tactic.SimpTrace         |
 | suggest        | library_search | import Mathlib.Tactic.LibrarySearch |
 | swap           | swap           | import Mathlib.Tactic.PermuteGoals  |
+| symmetry       | symm           | import Mathlib.Tactic.Relation.Symm |
 | try            | try            | [core]                              |
 | unfold         | unfold         | [core]                              |
 | use            | use            | import Mathlib.Tactic.Use           |
