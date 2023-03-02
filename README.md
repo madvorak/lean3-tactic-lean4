@@ -15,6 +15,7 @@
 | field_simp     | field_simp     | import Mathlib.Tactic.FieldSimp     |
 | finish         | —              | —                                   |
 | have           | have           | import Mathlib.Tactic.Have          |
+| hint           | —              | —                                   |
 | induction      | induction'     | import Mathlib.Tactic.Cases         |
 | intro          | intro          | [core]                              |
 | intros         | intro          | [core]                              |
@@ -28,7 +29,7 @@
 | right          | right          | import Mathlib.Tactic.LeftRight     |
 | ring           | ring           | import Mathlib.Tactic.Ring          |
 | rintro         | rintro         | import Std.Tactic.RCases            |
-| rw foo         | rw [foo]       | [core]                              |
+| rw             | rw             | [core]                              |
 | simp           | simp           | [core]                              |
 | sorry          | sorry          | [core]                              |
 | specialize     | specialize     | [core]                              |
