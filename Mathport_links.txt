@@ -1,0 +1,2 @@
+https://github.com/leanprover-community/mathport/blob/e898d4a1467fae2a9941c37081d8fff5041d617c/Mathport/Syntax/Translate/Tactic/Lean3.lean
+https://github.com/leanprover-community/mathport/blob/e898d4a1467fae2a9941c37081d8fff5041d617c/Mathport/Syntax/Translate/Tactic/Mathlib.lean
