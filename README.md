@@ -8,6 +8,7 @@
 | cases          | cases'         | import Mathlib.Tactic.Cases         |
 | congr          | congr          | [core]                              |
 | contradiction  | contradiction  | [core]                              |
+| contrapose     | contrapose     | import Mathlib.Tactic.Contrapose    |
 | convert        | convert        | import Mathlib.Tactic.Convert       |
 | convert_to     | convert_to     | import Mathlib.Tactic.Convert       |
 | exact          | exact          | [core]                              |
