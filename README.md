@@ -22,7 +22,7 @@
 | iterate        | iterate        | import Std.Tactic.Basic             |
 | left           | left           | import Mathlib.Tactic.LeftRight     |
 | library_search | library_search | import Mathlib.Tactic.LibrarySearch |
-| linarith       | linarith       | import Mathlib.Tactic.LibrarySearch |
+| linarith       | linarith       | import Mathlib.Tactic.Linarith      |
 | rcases         | rcases         | import Std.Tactic.RCases            |
 | refl           | rfl            | [core]                              |
 | repeat         | repeat         | [core]                              |
