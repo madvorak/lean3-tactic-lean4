@@ -24,6 +24,7 @@
 | left           | left           | import Mathlib.Tactic.LeftRight     |
 | library_search | library_search | import Mathlib.Tactic.LibrarySearch |
 | linarith       | linarith       | import Mathlib.Tactic.Linarith      |
+| push_neg       | push_neg       | import Mathlib.Tactic.PushNeg       |
 | rcases         | rcases         | import Std.Tactic.RCases            |
 | refl           | rfl            | [core]                              |
 | repeat         | repeat         | [core]                              |
