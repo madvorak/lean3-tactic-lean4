@@ -4,6 +4,7 @@
 | any_goals      | any_goals      | [core]                              |
 | apply          | apply          | [core]                              |
 | assumption     | assumption     | [core]                              |
+| by_cases       | by_cases       | [core]                              |
 | by_contradiction | by_contra    | import Mathlib.Tactic.ByContra      |
 | cases          | cases'         | import Mathlib.Tactic.Cases         |
 | congr          | congr          | [core]                              |
