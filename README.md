@@ -41,6 +41,7 @@
 | suggest        | library_search | import Mathlib.Tactic.LibrarySearch |
 | swap           | swap           | import Mathlib.Tactic.PermuteGoals  |
 | symmetry       | symm           | import Mathlib.Tactic.Relation.Symm |
+| tauto          | tauto          | import Mathlib.Tactic.Tauto         |
 | try            | try            | [core]                              |
 | unfold         | unfold         | [core]                              |
 | use            | use            | import Mathlib.Tactic.Use           |
