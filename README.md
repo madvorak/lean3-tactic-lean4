@@ -28,7 +28,7 @@
 | push_neg       | push_neg       | import Mathlib.Tactic.PushNeg       |
 | rcases         | rcases         | import Std.Tactic.RCases            |
 | refl           | rfl            | [core]                              |
-| repeat         | repeat         | [core]                              |
+| repeat         | repeat'        | import Std.Tactic.Basic             |
 | right          | right          | import Mathlib.Tactic.LeftRight     |
 | ring           | ring           | import Mathlib.Tactic.Ring          |
 | rintro         | rintro         | import Std.Tactic.RCases            |
