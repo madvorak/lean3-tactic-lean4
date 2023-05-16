@@ -5,47 +5,47 @@
 | apply            | apply                               | [core]                              |
 | assumption       | assumption                          | [core]                              |
 | by_cases         | by_cases                            | [core]                              |
-| by_contradiction | [by_contra_lk][by_contra]           | import Mathlib.Tactic.ByContra      |
-| cases            | [cases'_lk][cases']                 | import Mathlib.Tactic.Cases         |
+| by_contradiction | [by_contra][by_contra_lk]           | import Mathlib.Tactic.ByContra      |
+| cases            | [cases'][cases'_lk]                 | import Mathlib.Tactic.Cases         |
 | congr            | congr                               | [core]                              |
 | contradiction    | contradiction                       | [core]                              |
-| contrapose       | [contrapose_lk][contrapose]         | import Mathlib.Tactic.Contrapose    |
-| convert          | [convert_lk][convert]               | import Mathlib.Tactic.Convert       |
-| convert_to       | [convert_to_lk][convert_to]         | import Mathlib.Tactic.Convert       |
+| contrapose       | [contrapose][contrapose_lk]         | import Mathlib.Tactic.Contrapose    |
+| convert          | [convert][convert_lk]               | import Mathlib.Tactic.Convert       |
+| convert_to       | [convert_to][convert_to_lk]         | import Mathlib.Tactic.Convert       |
 | exact            | exact                               | [core]                              |
-| exfalso          | [exfalso_lk][exfalso]               | import Std.Tactic.Basic             |
-| field_simp       | [field_simp_lk][field_simp]         | import Mathlib.Tactic.FieldSimp     |
+| exfalso          | [exfalso][exfalso_lk]               | import Std.Tactic.Basic             |
+| field_simp       | [field_simp][field_simp_lk]         | import Mathlib.Tactic.FieldSimp     |
 | finish           | —                                   | —                                   |
-| have             | [have_lk][have]                     | import Mathlib.Tactic.Have          |
+| have             | [have][have_lk]                     | import Mathlib.Tactic.Have          |
 | hint             | —                                   | —                                   |
-| induction        | [induction'_lk][induction']         | import Mathlib.Tactic.Cases         |
+| induction        | [induction'][induction'_lk]         | import Mathlib.Tactic.Cases         |
 | intro            | intro                               | [core]                              |
 | intros           | intro                               | [core]                              |
-| iterate          | [iterate_lk][iterate]               | import Std.Tactic.Basic             |
-| left             | [left_lk][left]                     | import Mathlib.Tactic.LeftRight     |
-| library_search   | [library_search_lk][library_search] | import Mathlib.Tactic.LibrarySearch |
-| linarith         | [linarith_lk][linarith]             | import Mathlib.Tactic.Linarith      |
-| push_neg         | [push_neg_lk][push_neg]             | import Mathlib.Tactic.PushNeg       |
-| rcases           | [rcases_lk][rcases]                 | import Std.Tactic.RCases            |
+| iterate          | [iterate][iterate_lk]               | import Std.Tactic.Basic             |
+| left             | [left][left_lk]                     | import Mathlib.Tactic.LeftRight     |
+| library_search   | [library_search][library_search_lk] | import Mathlib.Tactic.LibrarySearch |
+| linarith         | [linarith][linarith_lk]             | import Mathlib.Tactic.Linarith      |
+| push_neg         | [push_neg][push_neg_lk]             | import Mathlib.Tactic.PushNeg       |
+| rcases           | [rcases][rcases_lk]                 | import Std.Tactic.RCases            |
 | refl             | rfl                                 | [core]                              |
-| repeat           | [repeat'_lk][repeat']               | import Std.Tactic.Basic             |
-| right            | [right_lk][right]                   | import Mathlib.Tactic.LeftRight     |
-| ring             | [ring_lk][ring]                     | import Mathlib.Tactic.Ring          |
-| rintro           | [rintro_lk][rintro]                 | import Std.Tactic.RCases            |
+| repeat           | [repeat'][repeat'_lk]               | import Std.Tactic.Basic             |
+| right            | [right][right_lk]                   | import Mathlib.Tactic.LeftRight     |
+| ring             | [ring][ring_lk]                     | import Mathlib.Tactic.Ring          |
+| rintro           | [rintro][rintro_lk]                 | import Std.Tactic.RCases            |
 | rw               | rw                                  | [core]                              |
 | simp             | simp                                | [core]                              |
 | sorry            | sorry                               | [core]                              |
 | specialize       | specialize                          | [core]                              |
 | split            | constructor                         | [core]                              |
 | split_ifs        | split                               | [core]                              |
-| squeeze_simp     | [simp?_lk][simp?]                   | import Std.Tactic.SimpTrace         |
-| suggest          | [library_search_lk][library_search] | import Mathlib.Tactic.LibrarySearch |
-| swap             | [swap_lk][swap]                     | import Mathlib.Tactic.PermuteGoals  |
-| symmetry         | [symm_lk][symm]                     | import Mathlib.Tactic.Relation.Symm |
-| tauto            | [tauto_lk][tauto]                   | import Mathlib.Tactic.Tauto         |
+| squeeze_simp     | [simp?][simp?_lk]                   | import Std.Tactic.SimpTrace         |
+| suggest          | [library_search][library_search_lk] | import Mathlib.Tactic.LibrarySearch |
+| swap             | [swap][swap_lk]                     | import Mathlib.Tactic.PermuteGoals  |
+| symmetry         | [symm][symm_lk]                     | import Mathlib.Tactic.Relation.Symm |
+| tauto            | [tauto][tauto_lk]                   | import Mathlib.Tactic.Tauto         |
 | try              | try                                 | [core]                              |
 | unfold           | unfold                              | [core]                              |
-| use              | [use_lk][use]                       | import Mathlib.Tactic.Use           |
+| use              | [use][use_lk]                       | import Mathlib.Tactic.Use           |
 
 <!--  Autogenerated links  -->
 <!--  `autolinks` removes modifications from here on  -->
