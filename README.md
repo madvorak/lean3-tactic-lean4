@@ -1,48 +1,75 @@
-| Lean 3         | Lean 4         | requires                            |
-| -------------- | -------------- | ----------------------------------- |
-| all_goals      | all_goals      | [core]                              |
-| any_goals      | any_goals      | [core]                              |
-| apply          | apply          | [core]                              |
-| assumption     | assumption     | [core]                              |
-| by_cases       | by_cases       | [core]                              |
-| by_contradiction | [by_contra](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/ByContra.html)    | import Mathlib.Tactic.ByContra      |
-| cases          | [cases'](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Cases.html)         | import Mathlib.Tactic.Cases         |
-| congr          | congr          | [core]                              |
-| contradiction  | contradiction  | [core]                              |
-| contrapose     | [contrapose](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Contrapose.html)     | import Mathlib.Tactic.Contrapose    |
-| convert        | [convert](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Convert.html)        | import Mathlib.Tactic.Convert       |
-| convert_to     | [convert_to](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Convert.html)     | import Mathlib.Tactic.Convert       |
-| exact          | exact          | [core]                              |
-| exfalso        | [exfalso](https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html)        | import Std.Tactic.Basic             |
-| field_simp     | [field_simp](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/FieldSimp.html)     | import Mathlib.Tactic.FieldSimp     |
-| finish         | —              | —                                   |
-| have           | [have](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Have.html)           | import Mathlib.Tactic.Have          |
-| hint           | —              | —                                   |
-| induction      | [induction'](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Cases.html)     | import Mathlib.Tactic.Cases         |
-| intro          | intro          | [core]                              |
-| intros         | intro          | [core]                              |
-| iterate        | [iterate](https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html)        | import Std.Tactic.Basic             |
-| left           | [left](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LeftRight.html)           | import Mathlib.Tactic.LeftRight     |
-| library_search | [library_search](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LibrarySearch.html) | import Mathlib.Tactic.LibrarySearch |
-| linarith       | [linarith](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Linarith.html)       | import Mathlib.Tactic.Linarith      |
-| push_neg       | [push_neg](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/PushNeg.html)       | import Mathlib.Tactic.PushNeg       |
-| rcases         | [rcases](https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/RCases.html)         | import Std.Tactic.RCases            |
-| refl           | rfl            | [core]                              |
-| repeat         | [repeat'](https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html)        | import Std.Tactic.Basic             |
-| right          | [right](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LeftRight.html)          | import Mathlib.Tactic.LeftRight     |
-| ring           | [ring](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Ring.html)           | import Mathlib.Tactic.Ring          |
-| rintro         | [rintro](https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/RCases.html)         | import Std.Tactic.RCases            |
-| rw             | rw             | [core]                              |
-| simp           | simp           | [core]                              |
-| sorry          | sorry          | [core]                              |
-| specialize     | specialize     | [core]                              |
-| split          | constructor    | [core]                              |
-| split_ifs      | split          | [core]                              |
-| squeeze_simp   | [simp?](https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/SimpTrace.html)          | import Std.Tactic.SimpTrace         |
-| suggest        | [library_search](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LibrarySearch.html) | import Mathlib.Tactic.LibrarySearch |
-| swap           | [swap](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/PermuteGoals.html)           | import Mathlib.Tactic.PermuteGoals  |
-| symmetry       | [symm](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Relation/Symm.html)           | import Mathlib.Tactic.Relation.Symm |
-| tauto          | [tauto](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Tauto.html)          | import Mathlib.Tactic.Tauto         |
-| try            | try            | [core]                              |
-| unfold         | unfold         | [core]                              |
-| use            | [use](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Use.html)            | import Mathlib.Tactic.Use           |
+| Lean 3           | Lean 4                              | requires                            |
+| --------------   | --------------                      | ----------------------------------- |
+| all_goals        | all_goals                           | [core]                              |
+| any_goals        | any_goals                           | [core]                              |
+| apply            | apply                               | [core]                              |
+| assumption       | assumption                          | [core]                              |
+| by_cases         | by_cases                            | [core]                              |
+| by_contradiction | [by_contra_lk][by_contra]           | import Mathlib.Tactic.ByContra      |
+| cases            | [cases'_lk][cases']                 | import Mathlib.Tactic.Cases         |
+| congr            | congr                               | [core]                              |
+| contradiction    | contradiction                       | [core]                              |
+| contrapose       | [contrapose_lk][contrapose]         | import Mathlib.Tactic.Contrapose    |
+| convert          | [convert_lk][convert]               | import Mathlib.Tactic.Convert       |
+| convert_to       | [convert_to_lk][convert_to]         | import Mathlib.Tactic.Convert       |
+| exact            | exact                               | [core]                              |
+| exfalso          | [exfalso_lk][exfalso]               | import Std.Tactic.Basic             |
+| field_simp       | [field_simp_lk][field_simp]         | import Mathlib.Tactic.FieldSimp     |
+| finish           | —                                   | —                                   |
+| have             | [have_lk][have]                     | import Mathlib.Tactic.Have          |
+| hint             | —                                   | —                                   |
+| induction        | [induction'_lk][induction']         | import Mathlib.Tactic.Cases         |
+| intro            | intro                               | [core]                              |
+| intros           | intro                               | [core]                              |
+| iterate          | [iterate_lk][iterate]               | import Std.Tactic.Basic             |
+| left             | [left_lk][left]                     | import Mathlib.Tactic.LeftRight     |
+| library_search   | [library_search_lk][library_search] | import Mathlib.Tactic.LibrarySearch |
+| linarith         | [linarith_lk][linarith]             | import Mathlib.Tactic.Linarith      |
+| push_neg         | [push_neg_lk][push_neg]             | import Mathlib.Tactic.PushNeg       |
+| rcases           | [rcases_lk][rcases]                 | import Std.Tactic.RCases            |
+| refl             | rfl                                 | [core]                              |
+| repeat           | [repeat'_lk][repeat']               | import Std.Tactic.Basic             |
+| right            | [right_lk][right]                   | import Mathlib.Tactic.LeftRight     |
+| ring             | [ring_lk][ring]                     | import Mathlib.Tactic.Ring          |
+| rintro           | [rintro_lk][rintro]                 | import Std.Tactic.RCases            |
+| rw               | rw                                  | [core]                              |
+| simp             | simp                                | [core]                              |
+| sorry            | sorry                               | [core]                              |
+| specialize       | specialize                          | [core]                              |
+| split            | constructor                         | [core]                              |
+| split_ifs        | split                               | [core]                              |
+| squeeze_simp     | [simp?_lk][simp?]                   | import Std.Tactic.SimpTrace         |
+| suggest          | [library_search_lk][library_search] | import Mathlib.Tactic.LibrarySearch |
+| swap             | [swap_lk][swap]                     | import Mathlib.Tactic.PermuteGoals  |
+| symmetry         | [symm_lk][symm]                     | import Mathlib.Tactic.Relation.Symm |
+| tauto            | [tauto_lk][tauto]                   | import Mathlib.Tactic.Tauto         |
+| try              | try                                 | [core]                              |
+| unfold           | unfold                              | [core]                              |
+| use              | [use_lk][use]                       | import Mathlib.Tactic.Use           |
+
+<!--  Autogenerated links  -->
+<!--  `autolinks` removes modifications from here on  -->
+[right_lk]          : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LeftRight.html
+[linarith_lk]       : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Linarith.html
+[have_lk]           : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Have.html
+[use_lk]            : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Use.html
+[rintro_lk]         : https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/RCases.html
+[rcases_lk]         : https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/RCases.html
+[by_contra_lk]      : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/ByContra.html
+[iterate_lk]        : https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html
+[repeat'_lk]        : https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html
+[left_lk]           : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LeftRight.html
+[convert_to_lk]     : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Convert.html
+[field_simp_lk]     : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/FieldSimp.html
+[exfalso_lk]        : https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html
+[cases'_lk]         : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Cases.html
+[simp?_lk]          : https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/SimpTrace.html
+[induction'_lk]     : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Cases.html
+[contrapose_lk]     : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Contrapose.html
+[push_neg_lk]       : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/PushNeg.html
+[library_search_lk] : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LibrarySearch.html
+[tauto_lk]          : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Tauto.html
+[swap_lk]           : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/PermuteGoals.html
+[ring_lk]           : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Ring.html
+[convert_lk]        : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Convert.html
+[symm_lk]           : https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Relation/Symm.html
