@@ -37,6 +37,7 @@
 | sorry          | sorry          | [core]                              |
 | specialize     | specialize     | [core]                              |
 | split          | constructor    | [core]                              |
+| split_ifs      | split          | [core]                              |
 | squeeze_simp   | simp?          | import Std.Tactic.SimpTrace         |
 | suggest        | library_search | import Mathlib.Tactic.LibrarySearch |
 | swap           | swap           | import Mathlib.Tactic.PermuteGoals  |
