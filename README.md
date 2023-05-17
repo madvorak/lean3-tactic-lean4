@@ -59,7 +59,7 @@
 [rcases_lk]:          https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/RCases.html#rcases "rcases"
 [by_contra_lk]:       https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#Std.Tactic.byContra "by_contra"
 [by_contra'_lk]:      https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/ByContra.html#by_contra "by_contra'"
-[iterate_lk]:         https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#iterate "iterate"
+[iterate_lk]:         https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#Std.Tactic.tacticIterate____ "iterate"
 [repeat'_lk]:         https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#Std.Tactic.tacticRepeat'_ "repeat'"
 [left_lk]:            https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LeftRight.html#Mathlib.Tactic.tacticLeft "left"
 [convert_to_lk]:      https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Convert.html#convert_to "convert_to"
