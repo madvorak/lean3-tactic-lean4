@@ -5,7 +5,7 @@
 | apply            | [apply][apply_lk]                   | [core]                              |
 | assumption       | [assumption][assumption_lk]         | [core]                              |
 | by_cases         | [by_cases][by_cases_lk]             | import Mathlib.Tactic.Basic         |
-| by_contradiction | [by_contra][by_contra_lk]           | import Mathlib.Tactic.ByContra      |
+| by_contra'       | [by_contra'][by_contra'_lk]         | import Mathlib.Tactic.ByContra      |
 | cases            | [cases'][cases'_lk]                 | import Mathlib.Tactic.Cases         |
 | congr            | [congr][congr_lk]                   | [core]                              |
 | contradiction    | [contradiction][contradiction_lk]   | [core]                              |
@@ -55,7 +55,7 @@
 [use_lk]:             https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Use.html#use "use"
 [rintro_lk]:          https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/RCases.html#rintro "rintro"
 [rcases_lk]:          https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/RCases.html#rcases "rcases"
-[by_contra_lk]:       https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/ByContra.html#by_contra "by_contra"
+[by_contra'_lk]:      https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/ByContra.html#by_contra "by_contra"
 [iterate_lk]:         https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#iterate "iterate"
 [repeat'_lk]:         https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#repeat' "repeat'"
 [left_lk]:            https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LeftRight.html#left "left"
