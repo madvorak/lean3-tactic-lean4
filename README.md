@@ -4,7 +4,7 @@
 | any_goals        | [any_goals][any_goals_lk]           | [core]                              |
 | apply            | [apply][apply_lk]                   | [core]                              |
 | assumption       | [assumption][assumption_lk]         | [core]                              |
-| by_cases         | [by_cases][by_cases_lk]             | [core]                              |
+| by_cases         | [by_cases][by_cases_lk]             | import Mathlib.Tactic.Basic         |
 | by_contradiction | [by_contra][by_contra_lk]           | import Mathlib.Tactic.ByContra      |
 | cases            | [cases'][cases'_lk]                 | import Mathlib.Tactic.Cases         |
 | congr            | [congr][congr_lk]                   | [core]                              |
@@ -77,7 +77,7 @@
 [any_goals_lk]:       https://leanprover-community.github.io/mathlib4_docs/Init/Tactics.html#Lean.Parser.Tactic.anyGoals "any_goals"
 [apply_lk]:           https://leanprover-community.github.io/mathlib4_docs/Init/Tactics.html#Lean.Parser.Tactic.apply "apply"
 [assumption_lk]:      https://leanprover-community.github.io/mathlib4_docs/Init/Tactics.html#Lean.Parser.Tactic.assumption "assumption"
-[by_cases_lk]:        https://leanprover-community.github.io/mathlib4_docs/Init/Tactics.html#by_cases "by_cases"
+[by_cases_lk]:        https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Basic.html#Mathlib.Tactic.tacticBy_cases_ "by_cases"
 [congr_lk]:           https://leanprover-community.github.io/mathlib4_docs/Init/Tactics.html#Lean.Parser.Tactic.congr "congr"
 [contradiction_lk]:   https://leanprover-community.github.io/mathlib4_docs/Init/Tactics.html#Lean.Parser.Tactic.contradiction "contradiction"
 [exact_lk]:           https://leanprover-community.github.io/mathlib4_docs/Init/Tactics.html#Lean.Parser.Tactic.exact "exact"
