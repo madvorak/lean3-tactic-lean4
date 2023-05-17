@@ -72,7 +72,7 @@
 [push_neg_lk]:        https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/PushNeg.html#push_neg "push_neg"
 [library_search_lk]:  https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LibrarySearch.html#library_search "library_search"
 [tauto_lk]:           https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Tauto.html#tauto "tauto"
-[swap_lk]:            https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/PermuteGoals.html#swap "swap"
+[swap_lk]:            https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/PermuteGoals.html#Mathlib.Tactic.tacticSwap "swap"
 [ring_lk]:            https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Ring/Basic.html#ring "ring"
 [convert_lk]:         https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Convert.html#convert "convert"
 [symm_lk]:            https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Relation/Symm.html#symm "symm"
