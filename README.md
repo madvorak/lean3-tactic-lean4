@@ -62,7 +62,7 @@
 [iterate_lk]:         https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#Std.Tactic.tacticIterate____ "iterate"
 [repeat'_lk]:         https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#Std.Tactic.tacticRepeat'_ "repeat'"
 [left_lk]:            https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/LeftRight.html#Mathlib.Tactic.tacticLeft "left"
-[convert_to_lk]:      https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Convert.html#convert_to "convert_to"
+[convert_to_lk]:      https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Convert.html#convertTo "convert_to"
 [field_simp_lk]:      https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/FieldSimp.html#field_simp "field_simp"
 [exfalso_lk]:         https://leanprover-community.github.io/mathlib4_docs/Std/Tactic/Basic.html#exfalso "exfalso"
 [cases'_lk]:          https://leanprover-community.github.io/mathlib4_docs/Mathlib/Tactic/Cases.html#cases' "cases'"
