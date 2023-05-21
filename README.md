@@ -27,6 +27,7 @@
 | left             | [left][left_lk]                     | import Mathlib.Tactic.LeftRight     |
 | library_search   | [library_search][library_search_lk] | import Mathlib.Tactic.LibrarySearch |
 | linarith         | [linarith][linarith_lk]             | import Mathlib.Tactic.Linarith      |
+| omega            | —                                   | —                                   |
 | push_neg         | [push_neg][push_neg_lk]             | import Mathlib.Tactic.PushNeg       |
 | rcases           | [rcases][rcases_lk]                 | import Std.Tactic.RCases            |
 | refl             | [rfl][rfl_lk]                       | [core]                              |
