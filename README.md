@@ -25,7 +25,7 @@
 | intros           | [intro][intro_lk]                   | [core]                              |
 | iterate          | [iterate][iterate_lk]               | import Std.Tactic.Basic             |
 | left             | [left][left_lk]                     | import Mathlib.Tactic.LeftRight     |
-| library_search   | [library_search][library_search_lk] | import Mathlib.Tactic.LibrarySearch |
+| library_search   | exact?                              | import Mathlib.Tactic.LibrarySearch |
 | linarith         | [linarith][linarith_lk]             | import Mathlib.Tactic.Linarith      |
 | omega            | —                                   | —                                   |
 | push_neg         | [push_neg][push_neg_lk]             | import Mathlib.Tactic.PushNeg       |
@@ -42,7 +42,7 @@
 | split            | [constructor][constructor_lk]       | [core]                              |
 | split_ifs        | [split][split_lk]                   | [core]                              |
 | squeeze_simp     | [simp?][simp?_lk]                   | import Std.Tactic.SimpTrace         |
-| suggest          | [library_search][library_search_lk] | import Mathlib.Tactic.LibrarySearch |
+| suggest          | apply?                              | import Mathlib.Tactic.LibrarySearch |
 | swap             | [swap][swap_lk]                     | import Mathlib.Tactic.PermuteGoals  |
 | symmetry         | [symm][symm_lk]                     | import Mathlib.Tactic.Relation.Symm |
 | tauto            | [tauto][tauto_lk]                   | import Mathlib.Tactic.Tauto         |
