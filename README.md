@@ -24,7 +24,7 @@
 | intro            | [intro][intro_lk]                   | [core]                              |
 | intros           | [intro][intro_lk]                   | [core]                              |
 | iterate          | [iterate][iterate_lk]               | import Std.Tactic.Basic             |
-| left             | [left][left_lk]                     | import Mathlib.Tactic.LeftRight     |
+| left             | [left][left_lk]                     | import Std.Tactic.LeftRight         |
 | library_search   | exact?                              | import Mathlib.Tactic.LibrarySearch |
 | linarith         | [linarith][linarith_lk]             | import Mathlib.Tactic.Linarith      |
 | omega            | —                                   | —                                   |
@@ -32,7 +32,7 @@
 | rcases           | [rcases][rcases_lk]                 | import Std.Tactic.RCases            |
 | refl             | [rfl][rfl_lk]                       | [core]                              |
 | repeat           | [repeat'][repeat'_lk]               | import Std.Tactic.Basic             |
-| right            | [right][right_lk]                   | import Mathlib.Tactic.LeftRight     |
+| right            | [right][right_lk]                   | import Std.Tactic.LeftRight         |
 | ring             | [ring][ring_lk]                     | import Mathlib.Tactic.Ring          |
 | rintro           | [rintro][rintro_lk]                 | import Std.Tactic.RCases            |
 | rw               | [rw][rw_lk]                         | [core]                              |
