@@ -19,7 +19,7 @@
 | field_simp       | field_simp    | import Mathlib.Tactic.FieldSimp     |
 | finish           | —             | —                                   |
 | have             | have          | import Mathlib.Tactic.Have          |
-| hint             | —             | —                                   |
+| hint             | hint          | import Mathlib.Tactic.Hint          |
 | induction        | induction'    | import Mathlib.Tactic.Cases         |
 | intro            | intro         | [core]                              |
 | intros           | intro         | [core]                              |
