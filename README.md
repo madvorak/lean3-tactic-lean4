@@ -27,7 +27,7 @@
 | left             | left          | import Std.Tactic.LeftRight         |
 | library_search   | exact?        | [core]                              |
 | linarith         | linarith      | import Mathlib.Tactic.Linarith      |
-| omega            | —             | —                                   |
+| omega            | omega         | [core]                              |
 | push_neg         | push_neg      | import Mathlib.Tactic.PushNeg       |
 | rcases           | rcases        | import Std.Tactic.RCases            |
 | refl             | rfl           | [core]                              |
