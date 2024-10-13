@@ -4,7 +4,7 @@
 | any_goals        | any_goals     | [core]                              |
 | apply            | apply         | [core]                              |
 | assumption       | assumption    | [core]                              |
-| by_cases         | by_cases      | import Mathlib.Tactic.Basic         |
+| by_cases         | by_cases      | [core]                              |
 | by_contradiction | by_contra     | import Std.Tactic.Basic             |
 | by_contra        | by_contra     | import Std.Tactic.Basic             |
 | by_contra'       | by_contra'    | import Mathlib.Tactic.ByContra      |
@@ -15,7 +15,7 @@
 | convert          | convert       | import Mathlib.Tactic.Convert       |
 | convert_to       | convert_to    | import Mathlib.Tactic.Convert       |
 | exact            | exact         | [core]                              |
-| exfalso          | exfalso       | import Std.Tactic.Basic             |
+| exfalso          | exfalso       | [core]                              |
 | field_simp       | field_simp    | import Mathlib.Tactic.FieldSimp     |
 | finish           | —             | —                                   |
 | have             | have          | import Mathlib.Tactic.Have          |
@@ -23,25 +23,25 @@
 | induction        | induction'    | import Mathlib.Tactic.Cases         |
 | intro            | intro         | [core]                              |
 | intros           | intro         | [core]                              |
-| iterate          | iterate       | import Std.Tactic.Basic             |
-| left             | left          | import Std.Tactic.LeftRight         |
+| iterate          | iterate       | [core]                              |
+| left             | left          | [core]                              |
 | library_search   | exact?        | [core]                              |
 | linarith         | linarith      | import Mathlib.Tactic.Linarith      |
 | omega            | omega         | [core]                              |
 | push_neg         | push_neg      | import Mathlib.Tactic.PushNeg       |
-| rcases           | rcases        | import Std.Tactic.RCases            |
+| rcases           | rcases        | [core]                              |
 | refl             | rfl           | [core]                              |
-| repeat           | repeat'       | import Std.Tactic.Basic             |
-| right            | right         | import Std.Tactic.LeftRight         |
+| repeat           | repeat'       | [core]                              |
+| right            | right         | [core]                              |
 | ring             | ring          | import Mathlib.Tactic.Ring          |
-| rintro           | rintro        | import Std.Tactic.RCases            |
+| rintro           | rintro        | [core]                              |
 | rw               | rw            | [core]                              |
 | simp             | simp          | [core]                              |
 | sorry            | sorry         | [core]                              |
 | specialize       | specialize    | [core]                              |
 | split            | constructor   | [core]                              |
 | split_ifs        | split         | [core]                              |
-| squeeze_simp     | simp?         | import Std.Tactic.SimpTrace         |
+| squeeze_simp     | simp?         | [core]                              |
 | suggest          | apply?        | [core]                              |
 | swap             | swap          | import Mathlib.Tactic.PermuteGoals  |
 | symmetry         | symm          | import Mathlib.Tactic.Relation.Symm |
