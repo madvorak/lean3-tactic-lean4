@@ -42,7 +42,7 @@
 | split_ifs        | split         | [core]                              |
 | squeeze_simp     | simp?         | [core]                              |
 | suggest          | apply?        | [core]                              |
-| swap             | swap          | import Mathlib.Tactic.PermuteGoals  |
+| swap             | swap          | import Batteries.Tactic.PermuteGoals|
 | symmetry         | symm          | import Mathlib.Tactic.Relation.Symm |
 | tauto            | tauto         | import Mathlib.Tactic.Tauto         |
 | try              | try           | [core]                              |
