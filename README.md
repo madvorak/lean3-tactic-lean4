@@ -7,7 +7,6 @@
 | by_cases         | by_cases      | [core]                              |
 | by_contradiction | by_contra     | import Mathlib.Tactic.ByContra      |
 | by_contra        | by_contra     | import Mathlib.Tactic.ByContra      |
-| by_contra'       | by_contra'    | import Mathlib.Tactic.ByContra      |
 | cases            | cases'        | import Mathlib.Tactic.Cases         |
 | congr            | congr         | [core]                              |
 | contradiction    | contradiction | [core]                              |
