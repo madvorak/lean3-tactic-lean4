@@ -16,7 +16,7 @@
 | exact            | exact         | [core]                              |
 | exfalso          | exfalso       | [core]                              |
 | field_simp       | field_simp    | import Mathlib.Tactic.FieldSimp     |
-| finish           | —             | —                                   |
+| finish           | aesop         | import Aesop                        |
 | have             | have          | import Mathlib.Tactic.Have          |
 | hint             | hint          | import Mathlib.Tactic.Hint          |
 | induction        | induction'    | import Mathlib.Tactic.Cases         |
